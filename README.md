@@ -20,3 +20,16 @@
 
 ## Microservices architecture
 
+### Advantages
+
+* Smaller code base which is independent
+* Scalled and deployed individually
+* Avoid single point of failure on service or instance
+* Allow the use of different tech stacks
+
+### Disadvantages
+
+* Distributed architecture is complex
+* Networks calls increase delays and failures
+* Increased effort due to multiple configurations and deployables
+* Transaction safety (ACID) is hard to achieve
