@@ -33,3 +33,14 @@
 * Networks calls increase delays and failures
 * Increased effort due to multiple configurations and deployables
 * Transaction safety (ACID) is hard to achieve
+
+### Handling transactions
+
+1. Avoid transactions (split data)
+2. Two-Phase Commit Protocol (2PC)
+   * Prepare phase
+   * Commit phase (synchronous with commit/abort)
+3. Eventual Consistency: Saga pattern
+   * Asynchronous
+   * Event bus
+   * Compensation if error
